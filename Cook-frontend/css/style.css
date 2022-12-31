@@ -1,0 +1,283 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    min-height: 1000px;
+}
+
+.banner{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-image: url(/images/bg.jpg);
+    background-size: cover;
+}
+
+.banner .content {
+    text-align: center;
+    max-width: 900px;
+}
+
+.banner .content h2 {
+    font-size: 5em;
+    color: #fff;
+}
+
+.banner .content p{
+    font-size: 1em;
+    font-weight: 400;
+    color: #fff;
+}
+
+.btn{
+    display: inline-block;
+    padding: 10px 30px;
+    margin-top: 20px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #ff0157;
+    font-size: 1em;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    transition: 0.5s;
+}
+
+.btn:hover {
+    letter-spacing: 5px;
+    color: #fff;
+}
+
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 10000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 100px;
+    transition: 0.5s;
+}
+
+header .logo{
+    font-size: 3em;
+    font-weight: 700;
+    color: #fff;
+    text-decoration: none;
+}
+
+header .logo span{
+    color: #ff0157;
+}
+
+header .navigation{
+    position: relative;
+    display: flex;
+    margin: 0;
+}
+
+header .navigation li{
+    list-style: none;
+    margin-left: 30px;
+}
+
+header .navigation li a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: 300;
+}
+
+header.sticky{
+    background-color: #fff;
+    padding: 10px 100px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.05);
+}
+
+header.sticky .logo{
+    color: #111;
+}
+
+header.sticky .navigation li a{
+    color: #111;
+}
+
+header .navigation li a:hover{
+    color: #ff0157;
+}
+
+section{
+    padding: 100px;
+}
+
+.about{
+    position: relative;
+    width: 100%;
+}
+
+.titleText{
+    font-weight: 300;
+    color: #111;
+    font-size: 2em;
+}
+
+.titleText span {
+    color: #ff0157;
+    font-size: 2em;
+    font-weight: 600;
+}
+
+.imgBox{
+    width: 100%;
+    height: 100%;
+}
+
+.imgBox img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.menu{
+    position: relative;
+    text-align: center;
+}
+
+.title{
+    margin-bottom: 30px;
+}
+
+.title p{
+    font-weight: 300;
+}
+
+.menu .wrapBox{
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    padding: 20px;
+    padding-bottom: 50px;
+    border: 15px solid #fff;
+    box-shadow: 0 5px 35px rgba(0, 0, 0, 0.08);
+}
+
+.wrapBox .text{
+    margin-top: 20px;
+    text-align: left;
+}
+
+.wrapBox .text p{
+    font-weight: 400;
+    color: #111;
+}
+
+.wrapBox .text p:hover{
+    color: #ff0157;
+    text-decoration: underline;
+}
+
+.expert{
+    position: relative;
+    text-align: center;
+}
+
+.expert .wrapBox{
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    padding: 10px;
+    padding-bottom: 50px;
+    border: 15px solid #fff;
+    box-shadow: 0 5px 35px rgba(0, 0, 0, 0.08);
+}
+
+.testimonial{
+    position: relative;
+    background-image: url(/images/bg2.jpg);
+    text-align: center;
+}
+
+.testimonial .titleText{
+    color: #fff;
+}
+
+.testimonial .title p{
+    color: #fff;
+}
+
+.testimonial .wrapBox{
+    background-color: #fff;
+    padding: 30px 40px;
+}
+
+.testimonial .imgBox{
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.testimonial .imgBox img{
+    border-radius: 50%;
+    border: 1px solid rgb(167, 167, 167);
+}
+
+.testimonial .wrapBox{
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+}
+
+.testimonial .description {
+    color: #666;
+    font-style: italic;
+}
+
+.testimonial .text p{
+    text-align: center;
+    font-weight: 600;
+    font-size: 1.1em;
+    color: #ff0157;
+}
+
+.contact{
+    position: relative;
+    background-image: url(/images/bg3.jpg);
+    background-size: cover;    
+}
+
+.contact .title{
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.contact form{
+    max-width: 500px;
+    padding: 75px 50px;
+    background-color: #fff;
+    box-shadow: 0 15px 50px rgba(0, 0, 0, 0.1);
+}
+
+.contact input{
+    outline: none;
+}
+
+
+
+
+
